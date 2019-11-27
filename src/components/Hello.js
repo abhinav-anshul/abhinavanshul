@@ -1,5 +1,5 @@
 import React from "react";
-
+import "../assets/arrow-down.png";
 class Hello extends React.Component {
   render() {
     return (
@@ -13,6 +13,9 @@ class Hello extends React.Component {
         </div>
         <div className="hello_main-button">
           <button className="button">About Me</button>
+        </div>
+        <div className="hello_main-arrowlogo">
+          <img src={require("../assets/arrow-down.png")} />
         </div>
       </div>
     );
