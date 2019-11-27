@@ -15,7 +15,10 @@ class Hello extends React.Component {
           <button className="button">About Me</button>
         </div>
         <div className="hello_main-arrowlogo">
-          <img src={require("../assets/arrow-down.png")} />
+          <img
+            className="arrow-logo"
+            src={require("../assets/arrow-down.png")}
+          />
         </div>
       </div>
     );
