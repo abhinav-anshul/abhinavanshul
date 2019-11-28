@@ -4,6 +4,7 @@
   .firstname-span {
     color: #0078d7;
     font-weight: 500;
+    font-size: 6.5rem;
   }
   .hello_main-expertise {
     // background-color: pink;
@@ -42,8 +43,8 @@
       letter-spacing: 1px;
       //   box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.5);
       box-shadow: 10px 10px 25px -14px rgba(0, 0, 0, 1);
-      animation-name: moveUpButton;
-      animation-duration: 2s;
+      //   animation-name: moveUpButton;
+      //   animation-duration: 2s;
       &:hover {
         @keyframes refer {
           0% {
@@ -71,7 +72,7 @@
     .arrow-logo {
       animation-name: arrow;
       animation-duration: 2s;
-      animation-timing-function: ease-in-out;
+      animation-timing-function: ease-out;
       animation-iteration-count: infinite;
     }
   }

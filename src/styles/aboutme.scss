@@ -1,0 +1,27 @@
+.aboutme_container {
+  //   background-color: aqua;
+  margin: 1rem 16rem 1rem 16rem;
+  padding: 3rem 2rem 3rem 2rem;
+  font-size: 2.2rem;
+  text-align: center;
+  color: #575757;
+
+  .aboutme-firstpara {
+    padding-bottom: 3rem;
+    line-height: 3.5rem;
+  }
+  .aboutme-secondpara {
+    padding-bottom: 3rem;
+    line-height: 3.5rem;
+  }
+  .aboutme-thirdpara {
+    padding-bottom: 3rem;
+    line-height: 3.5rem;
+  }
+}
+
+span {
+  color: black;
+  font-weight: 600;
+  font-size: 2rem;
+}

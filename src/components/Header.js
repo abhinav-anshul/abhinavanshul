@@ -9,11 +9,11 @@ class Header extends React.Component {
           <img src={require("../assets/delta.png")} />
         </div>
         <div className="header_main-nav">
-          <div>projects</div>
-          <div>contact</div>
-          <div>github</div>
+          <div className="link link1">projects</div>
+          <div className="link link2">contact</div>
+          <div className="link link3">github</div>
           <div className="header_main-mode">
-            <button className="header_main-mode-button">dark</button>
+            <button className="header_main-mode-button">DARK</button>
           </div>
         </div>
       </div>
