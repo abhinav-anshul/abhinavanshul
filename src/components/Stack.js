@@ -1,4 +1,5 @@
 import React from "react";
+import "../assets/paper-plane.png";
 
 class Stack extends React.Component {
   render() {
@@ -9,6 +10,15 @@ class Stack extends React.Component {
         <div className="stack-tech">
           HTML5 | CSS3 | SASS | JAVASCRIPT | WEBPACK | REACTJS | REDUX |
           STYLED-COMPONENTS | BABEL GATSBY | REST-API | VERSION-CONTROL
+        </div>
+        <div className="button-container">
+          <button className="actual-button">
+            <img
+              className="paper-plane"
+              src={require("../assets/paper-plane.png")}
+            />
+            Resume
+          </button>
         </div>
       </div>
     );

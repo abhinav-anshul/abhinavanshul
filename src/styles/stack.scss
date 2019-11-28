@@ -18,4 +18,32 @@
     line-height: 3rem;
     font-weight: 800;
   }
+  .button-container {
+    display: flex;
+    justify-content: center;
+
+    .actual-button {
+      color: white;
+      outline: none;
+      border: none;
+      background-color: #0078d7;
+      display: flex;
+      align-items: center;
+      font-size: 1.8rem;
+      font-family: "Space Mono", monospace;
+      font-weight: 400;
+      border-radius: 10rem;
+      padding-right: 1.9rem;
+      text-transform: uppercase;
+      box-shadow: 10px 10px 25px -14px rgba(0, 0, 0, 1);
+      cursor: pointer;
+      .paper-plane {
+        // background-color: pink;
+        padding: 0;
+        margin: 0;
+        height: 40px;
+        transform: translateY(0.1rem);
+      }
+    }
+  }
 }

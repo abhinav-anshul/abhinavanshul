@@ -1,4 +1,5 @@
 import React from "react";
+import Emoji from "a11y-react-emoji";
 
 class Aboutme extends React.Component {
   render() {
