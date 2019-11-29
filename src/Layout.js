@@ -4,6 +4,7 @@ import Hello from "./components/Hello";
 import Aboutme from "./components/Aboutme";
 import Stack from "./components/Stack";
 import Article from "./components/Article";
+import Project from "./components/Project";
 
 class Layout extends React.Component {
   render() {
@@ -14,6 +15,7 @@ class Layout extends React.Component {
         <Aboutme />
         <Stack />
         <Article />
+        <Project />
       </React.Fragment>
     );
   }
