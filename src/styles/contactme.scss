@@ -1,0 +1,50 @@
+.contactme_container {
+  //   background-color: green;
+  margin-top: 18rem;
+  margin-left: 20rem;
+  margin-right: 20rem;
+  .contactme-heading {
+    color: #0078d7;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 2.5rem;
+    font-family: "Space Mono", monospace;
+    font-weight: 900;
+  }
+  .contactme-email {
+    text-align: center;
+    margin: 2rem;
+    font-weight: 600;
+    font-size: 2rem;
+  }
+  .links-container {
+    // background-color: gray;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    display: flex;
+    justify-content: center;
+    .github-logo {
+      width: auto;
+      height: 3.5rem;
+      padding: 0rem 2rem 0rem 2rem;
+    }
+    .linkedin-logo {
+      width: auto;
+      height: 3.5rem;
+      padding: 0rem 2rem 0rem 2rem;
+    }
+    .twitter-logo {
+      width: auto;
+      height: 3.5rem;
+      padding: 0rem 2rem 0rem 2rem;
+    }
+  }
+  .copyright {
+    margin-top: 7rem;
+    display: flex;
+    justify-content: center;
+    font-size: 1.1rem;
+    font-weight: 500;
+    margin-bottom: 3rem;
+  }
+}
