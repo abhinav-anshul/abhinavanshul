@@ -2,7 +2,7 @@
   padding: 0rem 2rem 0rem 2rem;
   margin: 8rem 16rem 0rem 16rem;
   .project_container-heading {
-    background-color: yellow;
+    // background-color: yellow;
     padding: 2rem 0rem 1.5rem 0rem;
     text-align: center;
     font-family: "Space Mono", monospace;
@@ -12,7 +12,7 @@
     color: #0078d7;
   }
   .project_container-bio {
-    background-color: #0078d7;
+    // background-color: #0078d7;
     font-family: "Space Mono", monospace;
     font-size: 1.8rem;
     text-align: center;
@@ -43,10 +43,12 @@
       border: solid grey;
     }
     .project1-text-container {
+      // background-color: aqua;
+
       .actual-text {
         font-size: 1.6rem;
         text-align: left;
-        // background-color: aqua;
+
         margin: 0rem 3rem 0rem 3rem;
         padding: 1.5rem 3rem 1.5rem 3rem;
         color: #575757;
@@ -56,6 +58,7 @@
         margin: 0rem 3rem 0rem 3rem;
         text-align: center;
         font-size: 1.5rem;
+        font-weight: 700;
       }
       .actual-text-buttons-container {
         // background-color: greenyellow;
@@ -101,6 +104,40 @@
           box-shadow: 10px 10px 25px -14px rgba(0, 0, 0, 1);
         }
       }
+    }
+  }
+
+  //more button
+  .more-bio {
+    // background-color: red;
+    text-align: center;
+    font-family: "Space Mono", monospace;
+    font-size: 1.5rem;
+    margin-top: 2.4rem;
+  }
+  .more-button {
+    // background-color: aquamarine;
+    text-align: center;
+    margin-top: 1.6rem;
+    margin-bottom: 1.6rem;
+    .more-button-actual-button {
+      color: white;
+      background-color: #0078d7;
+      outline: none;
+      border: none;
+      border-radius: 10rem;
+      text-transform: uppercase;
+      font-size: 1.2rem;
+      outline: none;
+      padding: 0rem;
+      padding: 1rem 3rem 1rem 3rem;
+      letter-spacing: 0.1rem;
+      cursor: pointer;
+      font-weight: 500;
+      font-family: "Space Mono", monospace;
+      letter-spacing: 1px;
+      animation-name: buttonUp;
+      box-shadow: 10px 10px 25px -14px rgba(0, 0, 0, 1);
     }
   }
 }

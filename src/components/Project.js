@@ -129,6 +129,12 @@ class Project extends React.Component {
             </div>
           </div>
         </div>
+        <div className="more-bio">Check out more on my GitHub</div>
+        <div className="more-button">
+          <a href="https://github.com/abhinav-anshul">
+            <button className="more-button-actual-button">Github</button>
+          </a>
+        </div>
       </div>
     );
   }

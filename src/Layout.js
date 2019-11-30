@@ -5,6 +5,8 @@ import Aboutme from "./components/Aboutme";
 import Stack from "./components/Stack";
 import Article from "./components/Article";
 import Project from "./components/Project";
+import Project2 from "./components/Project2";
+import ProjectHeadingBio from "./components/ProjectHeadingBio";
 import Contactme from "./components/Contactme";
 
 class Layout extends React.Component {
@@ -16,7 +18,8 @@ class Layout extends React.Component {
         <Aboutme />
         <Stack />
         <Article />
-        <Project />
+        <ProjectHeadingBio />
+        <Project2 />
         <Contactme />
       </React.Fragment>
     );

@@ -1,7 +1,29 @@
 .article_container {
-  //   background-color: aqua;
+  // background-color: aqua;
   margin: 10rem 16rem 0rem 16rem;
   padding: 0rem 2rem 0rem 2rem;
+
+  @media screen and (max-width: 414px) {
+    margin: 0rem;
+    margin-top: 5rem;
+    padding: 0rem;
+  }
+  @media screen and (max-width: 393px) {
+    margin: 0rem;
+    margin-top: 5rem;
+    padding: 0rem;
+  }
+  @media screen and (max-width: 375px) {
+    margin: 0rem;
+    margin-top: 5rem;
+    padding: 0rem;
+  }
+  @media screen and (max-width: 360px) {
+    margin: 0rem;
+    margin-top: 5rem;
+    padding: 0rem;
+  }
+
   .article-heading {
     text-align: center;
     font-family: "Space Mono", monospace;
@@ -9,6 +31,11 @@
     font-weight: 900;
     text-transform: uppercase;
     color: #0078d7;
+
+    @media screen and (max-width: 414px) {
+      font-size: 1.8rem;
+      font-weight: 700;
+    }
   }
   .article-name {
     text-align: center;
@@ -20,6 +47,13 @@
     margin: 3rem 16rem 0rem 16rem;
     font-weight: 700;
     text-decoration: underline;
+    @media screen and (max-width: 414px) {
+      margin: 0rem;
+      padding: 0rem;
+      padding-top: 2rem;
+      font-size: 1.5rem;
+      font-weight: 500;
+    }
   }
   .article-detail {
     text-align: center;
@@ -28,21 +62,35 @@
     background-color: #f5f5f5;
     padding: 1rem 0rem 1rem 0rem;
     margin: 0rem 16rem 0rem 16rem;
+    @media screen and (max-width: 414px) {
+      margin: 0rem;
+      padding: 0rem;
+      margin-top: 0.8rem;
+      padding: 2rem;
+      margin: 0rem;
+    }
   }
   .button-container-article-container {
     text-align: center;
-
     border: none;
     font-family: "Space Mono", monospace;
     background-color: #f5f5f5;
     margin: 0rem 16rem 0rem 16rem;
     padding: 2rem 0rem 2rem 0rem;
+    @media screen and (max-width: 414px) {
+      margin: 0rem;
+      padding-bottom: 1rem;
+    }
     .button-container-article-button {
       font-size: 1.2rem;
       padding: 1.3rem 1.2rem 1.3rem 1.2rem;
-
       cursor: pointer;
-      box-shadow: 10px 10px 25px -14px rgba(0, 0, 0, 1);
+      -webkit-box-shadow: 14px 14px 39px -12px rgba(0, 0, 0, 0.3);
+      -moz-box-shadow: 14px 14px 39px -12px rgba(0, 0, 0, 0.3);
+      box-shadow: 14px 14px 39px -12px rgba(0, 0, 0, 0.3);
+      @media screen and (max-width: 414px) {
+        font-size: 1.5rem;
+      }
     }
   }
 }

@@ -1,10 +1,31 @@
 .aboutme_container {
-  //   background-color: aqua;
+  // background-color: aqua;
   margin: 1rem 16rem 1rem 16rem;
   padding: 3rem 2rem 3rem 2rem;
   font-size: 2.2rem;
   text-align: center;
   color: #575757;
+
+  @media screen and (max-width: 414px) {
+    margin: 0rem;
+    padding: 2rem;
+    font-size: 1.7rem;
+  }
+  @media screen and (max-width: 393px) {
+    margin: 0rem;
+    padding: 2rem;
+    font-size: 1.7rem;
+  }
+  @media screen and (max-width: 375px) {
+    margin: 0rem;
+    padding: 2rem;
+    font-size: 1.5rem;
+  }
+  @media screen and (max-width: 360px) {
+    margin: 0rem;
+    padding: 2rem;
+    font-size: 1.5rem;
+  }
 
   .aboutme-firstpara {
     padding-bottom: 3rem;
@@ -24,4 +45,17 @@ span {
   color: black;
   font-weight: 600;
   font-size: 1.8rem;
+
+  @media screen and (max-width: 414px) {
+    font-size: 1.7rem;
+  }
+  @media screen and (max-width: 393px) {
+    font-size: 1.7rem;
+  }
+  @media screen and (max-width: 375px) {
+    font-size: 1.5rem;
+  }
+  @media screen and (max-width: 360px) {
+    font-size: 1.5rem;
+  }
 }

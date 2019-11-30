@@ -3,6 +3,11 @@
   margin-top: 18rem;
   margin-left: 20rem;
   margin-right: 20rem;
+  @media screen and (max-width: 414px) {
+    margin: 0rem;
+    padding: 0rem;
+    margin-top: 18rem;
+  }
   .contactme-heading {
     color: #0078d7;
     text-align: center;
@@ -46,5 +51,27 @@
     font-size: 1.1rem;
     font-weight: 500;
     margin-bottom: 3rem;
+    @media screen and (max-width: 414px) {
+      margin: 0rem;
+      padding: 0rem;
+      margin-top: 5rem;
+    }
   }
 }
+
+// //more button
+// .more-bio {
+//   background-color: red;
+//   text-align: center;
+//   font-family: "Space Mono", monospace;
+//   font-size: 1.5rem;
+// }
+// .more-button {
+//   background-color: aquamarine;
+//   text-align: center;
+//   margin-top: 1.6rem;
+//   margin-bottom: 1.6rem;
+//   .more-button-actual-button {
+//     color: red;
+//   }
+// }

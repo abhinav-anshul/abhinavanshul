@@ -1,7 +1,21 @@
 import React from "react";
+import * as Scroll from "react-scroll";
+import {
+  Link,
+  Element,
+  Events,
+  animateScroll as scroll,
+  scrollSpy,
+  scroller
+} from "react-scroll";
+
 import "../assets/arrow-down.png";
 class Hello extends React.Component {
   render() {
+    scroll = () => {
+      console.log("clicked");
+    };
+
     return (
       <div className="hello_main">
         <h1>Hello,</h1>
@@ -12,7 +26,9 @@ class Hello extends React.Component {
           Software Developer | Frontend Engineer
         </div>
         <div className="hello_main-button">
-          <button className="button">About Me</button>
+          <button onClick={this.scroll} className="button">
+            About Me
+          </button>
         </div>
         <div className="hello_main-arrowlogo">
           <img

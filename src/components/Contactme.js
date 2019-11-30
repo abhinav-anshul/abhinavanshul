@@ -9,21 +9,27 @@ class Contactme extends React.Component {
         <div className="contactme-heading">contact me</div>
         <div className="contactme-email">contact.abhinavanshul@gmail.com</div>
         <div className="links-container">
-          <img
-            className="github-logo"
-            src={require("../assets/github-logo.png")}
-            alt="Github Logo"
-          />
-          <img
-            className="linkedin-logo"
-            src={require("../assets/linkedin-logo.png")}
-            alt="Linked Logo"
-          />
-          <img
-            className="twitter-logo"
-            src={require("../assets/twitter-logo.png")}
-            alt="Twitter Logo"
-          />
+          <a href="https://github.com/abhinav-anshul">
+            <img
+              className="github-logo"
+              src={require("../assets/github-logo.png")}
+              alt="Github Logo"
+            />
+          </a>
+          <a href="https://www.linkedin.com/in/abhinavanshul/">
+            <img
+              className="linkedin-logo"
+              src={require("../assets/linkedin-logo.png")}
+              alt="Linked Logo"
+            />
+          </a>
+          <a href="https://twitter.com/AbhinavAnshul3">
+            <img
+              className="twitter-logo"
+              src={require("../assets/twitter-logo.png")}
+              alt="Twitter Logo"
+            />
+          </a>
         </div>
         <div className="copyright">COPYRIGHT &copy; 2019, ABHINAV ANSHUL</div>
       </div>
