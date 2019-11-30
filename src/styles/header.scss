@@ -37,6 +37,8 @@
       cursor: pointer;
     }
     .header_main-mode {
+      ////////////CHANGE DISPLAY PROPERTY TO DISPLAY
+      display: none;
       animation-name: button;
       animation-duration: 2s;
       transform: translateX(6rem);

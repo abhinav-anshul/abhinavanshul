@@ -133,6 +133,12 @@ class Project2 extends React.Component {
             </div>
           </div>
         </div>
+        <div className="more-on-github_container">
+          <div className="github-bio">Check out more on my Github</div>
+          <a href="https://github.com/abhinav-anshul">
+            <button>github</button>
+          </a>
+        </div>
       </div>
     );
   }
