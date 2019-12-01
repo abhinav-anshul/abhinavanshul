@@ -8,7 +8,6 @@
   }
   .project-heading {
     //background-color: aqua;
-
     text-align: center;
     font-size: 2rem;
     padding: 2rem;
@@ -54,6 +53,7 @@
       .actual_text {
         // background-color: pink;
         padding: 1rem 3.5rem;
+        padding-top: 0rem;
         text-align: left;
         font-size: 1.6rem;
         color: #393e46;
@@ -67,7 +67,7 @@
     }
     .actual_text-stack {
       color: black;
-      font-size: 1.3rem;
+      font-size: 1.2rem;
       margin: 0.3rem;
       margin-bottom: 1rem;
       font-weight: 700;

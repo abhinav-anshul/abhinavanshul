@@ -58,10 +58,13 @@ class Project2 extends React.Component {
               REACTJS | CONTEXT-API | REST API
             </div>
             <div className="button_container">
-              <a target="_blank" href="rickandmorty.abhinavanshul.com">
+              <a target="_blank" href="http://rickandmorty.abhinavanshul.com/">
                 <button>Visit</button>
               </a>
-              <a target="_blank" href="rickandmorty.abhinavanshul.com">
+              <a
+                target="_blank"
+                href="https://github.com/abhinav-anshul/Rick-and-Morty-Database"
+              >
                 <button>Source</button>
               </a>
             </div>
