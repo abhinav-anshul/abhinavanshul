@@ -13,8 +13,8 @@ import "../assets/arrow-down.png";
 class Hello extends React.Component {
   handleClick = () => {
     console.log("clicked");
-    document.body.scrollTop = 600;
-    document.documentElement.scrollTop = 600;
+    document.body.scrollTop = 500;
+    document.documentElement.scrollTop = 500;
   };
 
   render() {

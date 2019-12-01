@@ -27,8 +27,8 @@ class TopButton extends React.Component {
     // console.log(event.target.className);
 
     if (
-      document.body.scrollTop > 900 ||
-      document.documentElement.scrollTop > 900
+      document.body.scrollTop > 800 ||
+      document.documentElement.scrollTop > 800
     ) {
       console.log(
         (document.getElementById("buttonid").style.display = "block")
