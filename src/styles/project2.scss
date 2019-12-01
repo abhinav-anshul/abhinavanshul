@@ -57,7 +57,8 @@
         text-align: left;
         font-size: 1.6rem;
         color: #393e46;
-
+        letter-spacing: 0.03rem;
+        // font-family: "Space Mono", monospace;
         @media screen and (max-width: 1230px) {
           padding: 2.5rem 2rem;
           text-align: center;
@@ -70,6 +71,8 @@
       margin: 0.3rem;
       margin-bottom: 1rem;
       font-weight: 700;
+      letter-spacing: 0.05rem;
+      font-family: "Space Mono", monospace;
     }
     button {
       margin: 0rem 2rem;
