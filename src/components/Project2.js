@@ -4,7 +4,7 @@ class Project2 extends React.Component {
   render() {
     return (
       <div className="project_container">
-        <div className="project-heading">Portofolio</div>
+        <div className="project-heading">Portfolio</div>
         <div className="project-image-text-container">
           <div className="project-image-container">
             <img
