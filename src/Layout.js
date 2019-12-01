@@ -8,6 +8,7 @@ import Project from "./components/Project";
 import Project2 from "./components/Project2";
 import ProjectHeadingBio from "./components/ProjectHeadingBio";
 import Contactme from "./components/Contactme";
+import TopButton from "./components/TopButton";
 
 class Layout extends React.Component {
   render() {
@@ -20,6 +21,7 @@ class Layout extends React.Component {
         <Article />
         <ProjectHeadingBio />
         <Project2 />
+        <TopButton />
         <Contactme />
       </React.Fragment>
     );

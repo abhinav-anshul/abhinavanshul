@@ -30,7 +30,7 @@ class Project2 extends React.Component {
           </div>
         </div>
 
-        <div className="project-heading">Portofolio</div>
+        <div className="project-heading ">Portofolio</div>
         <div className="project-image-text-container abc">
           <div className="project-text-container">
             <div className="actual_text">
@@ -82,7 +82,7 @@ class Project2 extends React.Component {
           </div>
         </div>
 
-        <div className="project-heading">Portofolio</div>
+        <div className="project-heading ab">Portofolio</div>
         <div className="project-image-text-container abc">
           <div className="project-text-container">
             <div className="actual_text">

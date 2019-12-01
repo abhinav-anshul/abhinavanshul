@@ -11,7 +11,9 @@ class Header extends React.Component {
         <div className="header_main-nav">
           <div className="link link1">projects</div>
           <div className="link link2">contact</div>
-          <div className="link link3">github</div>
+          <div className="link link3">
+            <a href="https://github.com/abhinav-anshul">github</a>
+          </div>
           <div className="header_main-mode">
             <button className="header_main-mode-button">DARK</button>
           </div>
