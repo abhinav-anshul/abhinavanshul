@@ -12,7 +12,10 @@ class Article extends React.Component {
           prefer to use SASS more than other alternatives?...
         </div>
         <div className="button-container-article-container">
-          <a href="https://medium.com/@abhinavanshul/what-makes-sass-so-interesting-d8928fc0f25e">
+          <a
+            target="_blank"
+            href="https://medium.com/@abhinavanshul/what-makes-sass-so-interesting-d8928fc0f25e"
+          >
             <button className="button-container-article-button">
               Read More on Medium
             </button>

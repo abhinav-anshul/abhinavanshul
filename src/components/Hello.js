@@ -11,11 +11,13 @@ import {
 
 import "../assets/arrow-down.png";
 class Hello extends React.Component {
-  render() {
-    scroll = () => {
-      console.log("clicked");
-    };
+  handleClick = () => {
+    console.log("clicked");
+    document.body.scrollTop = 600;
+    document.documentElement.scrollTop = 600;
+  };
 
+  render() {
     return (
       <div className="hello_main">
         <h1>Hello,</h1>
@@ -26,7 +28,7 @@ class Hello extends React.Component {
           Software Developer | Frontend Engineer
         </div>
         <div className="hello_main-button">
-          <button onClick={this.scroll} className="button">
+          <button onClick={this.handleClick} className="button">
             About Me
           </button>
         </div>

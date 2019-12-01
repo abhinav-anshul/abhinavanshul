@@ -9,21 +9,21 @@ class Contactme extends React.Component {
         <div className="contactme-heading">contact me</div>
         <div className="contactme-email">contact.abhinavanshul@gmail.com</div>
         <div className="links-container">
-          <a href="https://github.com/abhinav-anshul">
+          <a target="_blank" href="https://github.com/abhinav-anshul">
             <img
               className="github-logo"
               src={require("../assets/github-logo.png")}
               alt="Github Logo"
             />
           </a>
-          <a href="https://www.linkedin.com/in/abhinavanshul/">
+          <a target="_blank" href="https://www.linkedin.com/in/abhinavanshul/">
             <img
               className="linkedin-logo"
               src={require("../assets/linkedin-logo.png")}
               alt="Linked Logo"
             />
           </a>
-          <a href="https://twitter.com/AbhinavAnshul3">
+          <a target="_blank" href="https://twitter.com/AbhinavAnshul3">
             <img
               className="twitter-logo"
               src={require("../assets/twitter-logo.png")}

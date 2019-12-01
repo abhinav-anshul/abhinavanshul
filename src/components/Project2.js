@@ -24,8 +24,15 @@ class Project2 extends React.Component {
             </div>
             <div className="actual_text-stack">HTML | CSS3 | JAVASCRIPT</div>
             <div className="button_container">
-              <button>Visit</button>
-              <button>Source</button>
+              <a target="_blank" href="https://abhinavanshul.com/">
+                <button>Visit</button>
+              </a>
+              <a
+                target="_blank"
+                href="https://github.com/abhinav-anshul/abhinavanshul"
+              >
+                <button>Source</button>
+              </a>
             </div>
           </div>
         </div>
