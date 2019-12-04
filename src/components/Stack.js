@@ -9,7 +9,7 @@ class Stack extends React.Component {
 
         <div className="stack-tech">
           HTML5 | CSS3 | SASS | JAVASCRIPT | WEBPACK | REACTJS | REDUX |
-          STYLED-COMPONENTS | BABEL GATSBY | REST-API | VERSION-CONTROL
+          STYLED-COMPONENTS | BABEL | GATSBY | REST-API | VERSION-CONTROL
         </div>
         <div className="button-container">
           <button className="actual-button">
