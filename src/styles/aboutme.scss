@@ -6,16 +6,37 @@
   text-align: center;
   color: #575757;
 
+  @media screen and (min-width: 2400px) {
+    //background-color: red;
+    margin: 1rem 40rem 1rem 40rem;
+    font-size: 2rem;
+  }
+  @media screen and (max-width: 1140px) {
+    //background-color: red;
+    margin: 1rem 12rem 1rem 12rem;
+    font-size: 1.8rem;
+  }
+  @media screen and (max-width: 900px) {
+    //background-color: red;
+    margin: 1rem 9rem 1rem 9rem;
+    padding: 3rem 0rem 3rem 0rem;
+    font-size: 1.5;
+  }
+  @media screen and (max-width: 514px) {
+    //background-color: red;
+    margin: 1rem 2rem 1rem 2rem;
+    font-size: 1.5rem;
+  }
   @media screen and (max-width: 414px) {
     margin: 0rem;
     padding: 2rem;
     padding-top: 0rem;
-    font-size: 1.7rem;
+    font-size: 1.5rem;
   }
   @media screen and (max-width: 393px) {
     margin: 0rem;
     padding: 2rem;
-    font-size: 1.7rem;
+    font-size: 1.5rem;
     padding-top: 0rem;
   }
   @media screen and (max-width: 375px) {
@@ -50,6 +71,18 @@ span {
   font-weight: 600;
   font-size: 1.8rem;
 
+  @media screen and (min-width: 2400px) {
+    font-size: 2rem;
+  }
+  @media screen and (max-width: 1140px) {
+    font-size: 1.8rem;
+  }
+  @media screen and (max-width: 900px) {
+    font-size: 1.7rem;
+  }
+  @media screen and (max-width: 514px) {
+    font-size: 1.5rem;
+  }
   @media screen and (max-width: 414px) {
     font-size: 1.7rem;
   }
