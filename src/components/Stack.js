@@ -12,13 +12,18 @@ class Stack extends React.Component {
           STYLED-COMPONENTS | BABEL | GATSBY | REST-API | VERSION-CONTROL
         </div>
         <div className="button-container">
-          <button className="actual-button">
-            <img
-              className="paper-plane"
-              src={require("../assets/paper-plane.png")}
-            />
-            Resume
-          </button>
+          <a
+            target="_blank"
+            href="https://drive.google.com/file/d/1iK552T3YHDKKiZvKEK0KcPl5h2L9JzzW/view"
+          >
+            <button className="actual-button">
+              <img
+                className="paper-plane"
+                src={require("../assets/paper-plane.png")}
+              />
+              Resume
+            </button>
+          </a>
         </div>
       </div>
     );
