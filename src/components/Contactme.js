@@ -31,7 +31,7 @@ class Contactme extends React.Component {
             />
           </a>
         </div>
-        <div className="copyright">COPYRIGHT &copy; 2012, ABHINAV ANSHUL</div>
+        <div className="copyright">COPYRIGHT &copy; 2020, ABHINAV ANSHUL</div>
       </div>
     );
   }
