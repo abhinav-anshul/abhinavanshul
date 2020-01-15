@@ -77,23 +77,23 @@ class Project2 extends React.Component {
           </div>
         </div>
 
-        <div className="project-heading">Portofolio</div>
+        <div className="project-heading">Todos</div>
         <div className="project-image-text-container">
           <div className="project-image-container">
             <img
               className="project1-image"
-              src={require("../assets/project1.PNG")}
+              src={require("../assets/project3.PNG")}
             />
           </div>
           <div className="project-text-container">
             <div className="actual_text">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-              reprehenderit in voluptate velit esse cillum dolore eu fugiat
-              nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-              sunt in culpa qui officia deserunt mollit anim id est laborum
+              A classic todo list, which takes two input fields, namely Title
+              and details, where one can put todo item with a brief detail about
+              it. I used only functional-based components in this application,
+              along with hooks such as useState, useEffect, etc. I wanted to use
+              Context-API in this one too as its comparatively new architecture
+              in React v16. For the styling part, I have used plain old CSS, as
+              it did not require much styling for a simple todo application.
             </div>
             <div className="actual_text-stack">HTML | CSS3 | JAVASCRIPT</div>
             <div className="button_container">
