@@ -95,10 +95,16 @@ class Project2 extends React.Component {
               in React v16. For the styling part, I have used plain old CSS, as
               it did not require much styling for a simple todo application.
             </div>
-            <div className="actual_text-stack">HTML | CSS3 | JAVASCRIPT</div>
+            <div className="actual_text-stack">
+              REACTJS | CSS3 | CONTEXT-API | LOCALSTORAGE
+            </div>
             <div className="button_container">
-              <button>Visit</button>
-              <button>Source</button>
+              <a target="_blank" href="http://todos.abhinavanshul.com/">
+                <button>Visit</button>
+              </a>
+              <a target="_blank" href="https://github.com/abhinav-anshul/Todos">
+                <button>Source</button>
+              </a>
             </div>
           </div>
         </div>
