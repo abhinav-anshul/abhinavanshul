@@ -109,28 +109,35 @@ class Project2 extends React.Component {
           </div>
         </div>
 
-        <div className="project-heading ab">Portofolio</div>
+        <div className="project-heading ab">Weathery</div>
         <div className="project-image-text-container abc">
           <div className="project-text-container">
             <div className="actual_text">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-              reprehenderit in voluptate velit esse cillum dolore eu fugiat
-              nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-              sunt in culpa qui officia deserunt mollit anim id est laborum
+              A Weather Application built using ReactJs and tons of API
+              services. In this application we can have a forecast or even
+              historical weather details sorted using a date picker. I have used
+              two popular REST API called 'DarkSky' and 'OpenWeather' to fetch
+              weather details, including forecast and historical events.By
+              default it renders out the weather condition for a city
+              'Bangalore,India' when this application is first loaded.
             </div>
-            <div className="actual_text-stack">HTML | CSS3 | JAVASCRIPT</div>
+            <div className="actual_text-stack">REACTJS | CSS3 | REST-API</div>
             <div className="button_container">
-              <button>Visit</button>
-              <button>Source</button>
+              <a target="_blank" href="http://weathery.abhinavanshul.com/">
+                <button>Visit</button>
+              </a>
+              <a
+                target="_blank"
+                href="https://github.com/abhinav-anshul/Cuebook-weather-api"
+              >
+                <button>Source</button>
+              </a>
             </div>
           </div>
           <div className="project-image-container">
             <img
               className="project1-image"
-              src={require("../assets/project1.PNG")}
+              src={require("../assets/project4.PNG")}
             />
           </div>
         </div>
