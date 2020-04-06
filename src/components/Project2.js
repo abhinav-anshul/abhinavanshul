@@ -142,12 +142,12 @@ class Project2 extends React.Component {
           </div>
         </div>
 
-        <div className="project-heading">Portofolio</div>
+        <div className="project-heading">Taskboard - A Trello Clone</div>
         <div className="project-image-text-container">
           <div className="project-image-container">
             <img
               className="project1-image"
-              src={require("../assets/project1.PNG")}
+              src={require("../assets/project5.PNG")}
             />
           </div>
           <div className="project-text-container">
@@ -160,10 +160,20 @@ class Project2 extends React.Component {
               nulla pariatur. Excepteur sint occaecat cupidatat non proident,
               sunt in culpa qui officia deserunt mollit anim id est laborum
             </div>
-            <div className="actual_text-stack">HTML | CSS3 | JAVASCRIPT</div>
+            <div className="actual_text-stack">
+              REACTJS | REDUX | REDUX-PERSIST | LOCALSTORAGE
+            </div>
+
             <div className="button_container">
-              <button>Visit</button>
-              <button>Source</button>
+              <a target="_blank" href="https://taskboard.abhinavanshul.com/">
+                <button>Visit</button>
+              </a>
+              <a
+                target="_blank"
+                href="https://github.com/abhinav-anshul/consensolabs"
+              >
+                <button>Source</button>
+              </a>
             </div>
           </div>
         </div>
