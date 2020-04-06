@@ -152,13 +152,11 @@ class Project2 extends React.Component {
           </div>
           <div className="project-text-container">
             <div className="actual_text">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-              reprehenderit in voluptate velit esse cillum dolore eu fugiat
-              nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-              sunt in culpa qui officia deserunt mollit anim id est laborum
+              A Taskboard Application, cloning the functionality and aesthetics
+              of Trello Board, including local storage feature. All the tasks
+              are draggable within and movable to different boards too. This
+              application is mainly built using ReactJS. For state management, I
+              have used Redux and Redux Persist.
             </div>
             <div className="actual_text-stack">
               REACTJS | REDUX | REDUX-PERSIST | LOCALSTORAGE
