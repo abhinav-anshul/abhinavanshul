@@ -7,7 +7,8 @@ class Aboutme extends React.Component {
       <div className="aboutme_container">
         <div className="aboutme-firstpara">
           Hey!! I'm <span>Abhinav,</span> a 22 years old FrontEnd Engineer,
-          based in India. I graduated in <span>Computer Science</span> from
+          based in India, working for Consenso Labs. I graduated in{" "}
+          <span>Computer Science</span> from
           <span> Kalinga Institute of Industrial Technology,</span> Bhubaneswar.
         </div>
         <div className="aboutme-secondpara">
