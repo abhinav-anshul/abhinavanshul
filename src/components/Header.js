@@ -9,8 +9,8 @@ class Header extends React.Component {
   };
 
   handleProjects = () => {
-    document.body.scrollTop = 2000;
-    document.documentElement.scrollTop = 2000;
+    document.body.scrollTop = 1700;
+    document.documentElement.scrollTop = 1700;
   };
 
   render() {
