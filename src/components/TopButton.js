@@ -1,5 +1,5 @@
 import React from "react";
-import "../assets/arrow-up.png";
+import ArrowUp from "../assets/arrow-up.png";
 
 class TopButton extends React.Component {
   constructor(props) {
@@ -40,15 +40,15 @@ class TopButton extends React.Component {
 
   render() {
     return (
-      <div className="topbutton_container">
+      <div className='topbutton_container'>
         <button
-          id="buttonid"
+          id='buttonid'
           style={{ display: "block" }}
           onClick={this.handleClick}
           onScroll={this.handleScroll}
-          className="topbutton_button"
+          className='topbutton_button'
         >
-          <img src={require("../assets/arrow-up.png")} />
+          <img alt='' src={ArrowUp} />
         </button>
       </div>
     );

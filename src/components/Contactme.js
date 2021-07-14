@@ -1,37 +1,41 @@
 import React from "react";
-import "../assets/github-logo.png";
-import "../assets/linkedin-logo.png";
-import "../assets/twitter-logo.png";
+import GithubLogo from "../assets/github-logo.png";
+import LinkedLogo from "../assets/linkedin-logo.png";
+import TwitterLogo from "../assets/twitter-logo.png";
 class Contactme extends React.Component {
   render() {
     return (
-      <div className="contactme_container">
-        <div className="contactme-heading">contact me</div>
-        <div className="contactme-email">contact.abhinavanshul@gmail.com</div>
-        <div className="links-container">
-          <a target="_blank" href="https://github.com/abhinav-anshul">
-            <img
-              className="github-logo"
-              src={require("../assets/github-logo.png")}
-              alt="Github Logo"
-            />
+      <div className='contactme_container'>
+        <div className='contactme-heading'>contact me</div>
+        <div className='contactme-email'>contact.abhinavanshul@gmail.com</div>
+        <div className='links-container'>
+          <a
+            rel='noreferrer'
+            target='_blank'
+            href='https://github.com/abhinav-anshul'
+          >
+            <img className='github-logo' src={GithubLogo} alt='Github Logo' />
           </a>
-          <a target="_blank" href="https://www.linkedin.com/in/abhinavanshul/">
-            <img
-              className="linkedin-logo"
-              src={require("../assets/linkedin-logo.png")}
-              alt="Linked Logo"
-            />
+          <a
+            rel='noreferrer'
+            target='_blank'
+            href='https://www.linkedin.com/in/abhinavanshul/'
+          >
+            <img className='linkedin-logo' src={LinkedLogo} alt='Linked Logo' />
           </a>
-          <a target="_blank" href="https://twitter.com/AbhinavAnshul3">
+          {/* <a
+            rel='noreferrer'
+            target='_blank'
+            href='https://twitter.com/AbhinavAnshul3'
+          >
             <img
-              className="twitter-logo"
-              src={require("../assets/twitter-logo.png")}
-              alt="Twitter Logo"
+              className='twitter-logo'
+              src={TwitterLogo}
+              alt='Twitter Logo'
             />
-          </a>
+          </a> */}
         </div>
-        <div className="copyright">COPYRIGHT &copy; 2020, ABHINAV ANSHUL</div>
+        <div className='copyright'>COPYRIGHT &copy; 2021, abhinav anshul</div>
       </div>
     );
   }
